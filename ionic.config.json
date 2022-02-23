@@ -1,0 +1,7 @@
+{
+  "name": "chegadaNaLuaApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
