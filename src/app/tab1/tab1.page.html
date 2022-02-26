@@ -1,17 +1,52 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 1
+    <ion-title class="navbar">
+      <a routerLink="/" role="button">
+        <img src="assets/moonLogo.png" alt="" width="70px">
+      </a>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid id="ionGrid">
+    <ion-row>
+        <h2>
+          <strong>Chegada do homem à Lua: 6 fatos sobre a Apollo 11</strong>
+        </h2>
+    </ion-row>
+    <ion-row style="margin-top: 15px;">
+      No dia 20 de julho de 1969 o homem pisou na Lua pela primeira vez. Para comemorar esse marco histórico da exploração espacial, relembramos pontos principais da missão Apollo 11.
+    </ion-row>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <ion-row style="margin-top: 25px;">
+      <h4>
+        <strong>1. O que foi</strong>
+      </h4>
+      <span>
+        Realizada pela NASA em julho de 1969, a missão Apollo 11 tinha como objetivo levar um homem até a Lua e trazê-lo de volta em segurança. Ela durou 8 dias e foi muito bem sucedida.
+      </span>
+      <ion-img src="https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/07/800px-Apollo_11_Saturn_V_lifting_off_on_July_16_1969.jpg?quality=100&strip=info" width="600px" style="margin-top: 15px;"></ion-img>
+    </ion-row>
+
+    <ion-row style="margin-top: 25px;">
+      <h4>
+        <strong>2. Tripulação</strong>
+      </h4>
+      <span>
+        A bordo do módulo de comando Columbia, Michael Collins, Buzz Aldrin e Neil Armstrong foram os três astronautas enviados ao satélite natural.
+      </span>
+      <ion-img src="https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/07/Apollo_11_Crew.jpg?quality=100&strip=info" width="600px" style="margin-top: 15px;"></ion-img>
+    </ion-row>
+
+    <ion-row style="margin-top: 25px;">
+      <h4>
+        <strong>3. Grande Momento</strong>
+      </h4>
+      <span>
+        Neil Armstrong se tornou a primeira pessoa a pisar em superfície lunar. Buzz Aldrin foi em seguida
+      </span>
+      <ion-img src="https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/07/Armstrong_on_Moon_As11-40-5886_cropped.jpg?quality=100&strip=info" width="600px" style="margin-top: 15px; margin-bottom: 20px;"></ion-img>
+    </ion-row>
+  </ion-grid>
 </ion-content>

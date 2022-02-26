@@ -1,0 +1,52 @@
+<ion-header>
+  <ion-toolbar >
+    <ion-back-button slot="start" style="background-color: rgb(91 33 182); height: 76px; color: white;"></ion-back-button>
+    <ion-title class="navbar">
+      <a routerLink="/" role="button" style="margin-right: 46px;">
+        <img src="assets/moonLogo.png" alt="" width="70px">
+      </a>
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row class="ion-justify-content-center" style="margin-top: 50px;">
+      <ion-col class="lightBoxShadowed" size="10">
+        <ion-item lines="none">
+          <div style="width: 100%; margin-top: 20px;">
+            <ion-label style="margin-bottom: 5px;">Email</ion-label>
+            <ion-input placeholder="Ex. joaodasilva@gmail.com" type="email" style="border: 1px solid; border-radius: 5px;"></ion-input>
+          </div>
+        </ion-item>
+
+        <ion-item lines="none">
+          <div style="width: 100%; margin-top: 20px; margin-bottom: 15px; margin-right: 10px;">
+            <ion-label style="margin-bottom: 5px;">Nome</ion-label>
+            <ion-input type="text" style="border: 1px solid; border-radius: 5px;"></ion-input>
+          </div>
+          <div style="width: 100%; margin-top: 20px; margin-bottom: 15px;">
+            <ion-label style="margin-bottom: 5px;">Sobrenome</ion-label>
+            <ion-input type="text" style="border: 1px solid; border-radius: 5px;"></ion-input>
+          </div>
+        </ion-item>
+
+        <ion-item lines="none">
+          <div style="width: 100%; margin-bottom: 15px;">
+            <ion-label style="margin-bottom: 5px;">Senha</ion-label>
+            <ion-input placeholder="****************************" type="password" style="border: 1px solid; border-radius: 5px;"></ion-input>
+          </div>
+        </ion-item>
+        <ion-item lines="none">
+          <div style="width: 100%; margin-bottom: 15px;">
+            <ion-label style="margin-bottom: 5px;">Confirmar senha</ion-label>
+            <ion-input placeholder="****************************" type="password" style="border: 1px solid; border-radius: 5px;"></ion-input>
+          </div>
+        </ion-item>
+
+        <ion-button expand="block" type="submit">Cadastrar</ion-button>
+      </ion-col>
+      <ion-text style="opacity: 70%; margin-top: 10px;"><small>©2022 Pablo Latapiat. All rights reserved.</small></ion-text>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,17 +1,43 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
+    <ion-title class="navbar">
+      <a routerLink="/" role="button">
+        <img src="assets/moonLogo.png" alt="" width="70px">
+      </a>
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid id="ionGrid">
+    <ion-row style="margin-top: 25px;">
+      <h4>
+        <strong>4. Na lua</strong>
+      </h4>
+      <span>
+        Enquanto Michael Collins controlava a aeronave em órbita ao redor da Lua, Armstrong e Aldrin foram responsáveis pela coleta de materiais da superfície. Ao todo, eles ficaram cerca de 21 horas e meia na lua.
+      </span>
+      <ion-img src="https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/07/Apollo_11_bootprint.jpg?resize=650,654" width="600px" style="margin-top: 15px;"></ion-img>
+    </ion-row>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+    <ion-row style="margin-top: 25px;">
+      <h4>
+        <strong>5. Contexto histórico</strong>
+      </h4>
+      <span>
+        No período da Guerra Fria, a Corrida Espacial foi a competição tecnológica entre Estados Unidos e União Soviética para ver quem realizaria o próximo grande feito espacial. Com a chegada do homem à Lua, os EUA venceram a "competição"
+      </span>
+      <ion-img src="https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/07/1024px-Buzz_salutes_the_U.S._Flag.jpg?resize=650,656" width="600px" style="margin-top: 15px;"></ion-img>
+    </ion-row>
+
+    <ion-row style="margin-top: 25px;">
+      <h4>
+        <strong>6. importância</strong>
+      </h4>
+      <span>
+        O acontecimento foi um enorme marco na história, como dito pelo próprio Armstrong: “Um pequeno passo para um homem, um salto gigante para a humanidade”.
+      </span>
+      <ion-img src="https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/07/1024px-Apollo_11_lunar_module.jpg?resize=650,627" width="600px" style="margin-top: 15px; margin-bottom: 20px;"></ion-img>
+    </ion-row>
+  </ion-grid>
 </ion-content>

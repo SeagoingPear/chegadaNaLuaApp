@@ -24,3 +24,22 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+.navbar {
+  text-align: center;
+  padding-top: 5px;
+  background-color: rgb(91 33 182);
+}
+
+#ionGrid {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  text-align: justify;
+  line-height: 22px;
+}
+
+.lightBoxShadowed {
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
